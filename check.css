@@ -1,0 +1,58 @@
+/* body{
+  height: 1500px;
+}
+#one{
+  border: 2px solid red;
+  background-image: url('./images/main-1.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:800px;
+}
+#two{
+  border: 2px solid red;
+  background-image: url('./images/main-2.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:800px;
+}
+#three{
+  border: 2px solid red;
+  background-image: url('./images/main-3.jpg');
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: cover;
+  height:800px;
+}
+#four{
+  border: 2px solid red;
+  background-image: url('./images/main-1.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:800px;
+}
+p{
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  margin-bottom: 150px;
+}
+p2{
+  color: white;
+  font-size: 20px;
+  background-color: black;
+  margin-top: 150px;
+} */
+.background{
+
+}
+div{
+  border: 2px solid red;
+  position: absolute;
+  object-fit: cover;
+  justify-content: center;
+  justify-items: center;
+  overflow-x: hidden;
+}

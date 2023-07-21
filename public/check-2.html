@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    #nav1{
+      height: fit-content;
+      border: 2px solid black;
+      width: 50px;
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+      position: fixed;
+ 
+    }
+    #nav1 li {
+      list-style: none;
+
+    }
+    #nav1 li a{
+      text-decoration: none;
+      border: 1px solid black;
+      height: 100px;
+      width: 100px;
+      /* border-radius: 100%; */
+      /* border-radius: 100%; */
+      
+    }
+    #nav1 a.active,
+    #nav1 a:hover{
+      background-color: aqua;
+    }
+    #nav1 li a {
+      /* display: none; */
+    }
+    #home,#login,#register,#contact,#call{
+      height: 500px;
+      border: 2px solid red;
+      text-align: center;
+      
+    }
+    #nav1 li a {
+      /* border: 2px solid red; */
+    }
+  </style>
+</head>
+<body>  
+  <div id ="nav">
+    <ol id="nav1">  
+    <li><a class="active" href="#home"></a></li>
+    <li><a href="#login"></a></li>
+    <li><a href="#register"></a></li>
+    <li><a href="#contact"></a></li>
+    <li><a href="#call"></a></li>
+  </ol>
+  </div>
+  <div id="home">home</div>
+  <div id="login">login</div>
+  <div id="register">register</div>
+  <div id="contact">contact</div>
+  <div id="call">call</div>
+  <script src="./check-2.js"></script>
+</body>
+</html>
